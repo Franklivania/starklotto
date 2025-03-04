@@ -50,10 +50,7 @@ export const Header = () => {
       {/* Mobile and Tablet Navigation */}
       <nav className="lg:hidden flex items-center justify-between py-4 px-4 md:px-6">
         {/* Hamburger Menu Button */}
-        <button
-          onClick={toggleMenu}
-          className="text-white focus:outline-none"
-        >
+        <button onClick={toggleMenu} className="text-white focus:outline-none">
           {isMenuOpen ? (
             <XMarkIcon className="h-6 w-6 md:h-8 md:w-8" />
           ) : (
